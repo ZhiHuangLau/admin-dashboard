@@ -1,1 +1,16 @@
+.container{
+  display: grid;
+  grid-template: 1fr 6fr/ 1fr 4fr;
+}
 
+.dashboard{
+  grid-area: 1/1/3/2;
+}
+
+.header{
+  grid-area: 1/2/2/3;
+}
+
+.content{
+  grid-area:2/2/3/3;
+}
